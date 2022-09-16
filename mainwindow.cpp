@@ -41,6 +41,6 @@ void MainWindow::on_ConnectButton_clicked()
         chart->setAnimationOptions(QChart::AllAnimations);
         QChartView chartView(chart);
         chartView.setRenderHint(QPainter::Antialiasing);
-        chart->show();
+        chartView.setParent(ui->ChartFrame);
 }
 

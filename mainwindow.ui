@@ -1655,7 +1655,7 @@ hr { height: 1px; border-width: 0; }
      </rect>
     </property>
    </widget>
-   <widget class="QFrame" name="horizontalFrame">
+   <widget class="QFrame" name="ChartFrame">
     <property name="geometry">
      <rect>
       <x>0</x>
